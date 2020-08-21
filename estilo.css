@@ -1,0 +1,50 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.caja{
+    border:1px solid grey;
+}
+
+.titulo{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+.perfil{
+    display:flex;
+    align-items: center;
+}
+
+.perfil img{
+    height: 45px;
+    border-radius: 40px;
+    margin-right: 12px;
+}
+
+.final{
+    display: flex;
+    justify-content: space-between;
+}
+
+.opcciones img{
+    margin-right: 12px;
+}
+
+.perfil p{
+    font-weight: bold;
+}
+
+.final{
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.contenido img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
